@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+
+<h1>GlamCal</h1> <br>
+
+<div class="batchContainer">
+    <form class="enterBatch">
+        <label for="batchSize"><strong>Batch Size Ounce (oz)</strong></label>
+        <input type="text" id="batchSize" name="batchSize">
+        <button class="submitButton">Submit</button>
+    </form>
+</div>
+
+<div class="container1">
+    <section>
+        <form>
+            <label for="ingredientCommonName">Ingredient Common Name</label>
+            <input type="text" id="ingredientCommonName" name="Ingredient Common Name">
+        </form>
+    </section>
+    <section>
+        <form>
+            <label for="inciName">INCI Name</label>
+            <input type="text" id="inciName" name="INCI Name">
+        </form>
+    </section>
+    <section>
+        <form>
+            <label for="percentage">Percentage</label>
+            <input type="number" id="percentage" name="Percentage">
+        </form>
+    </section>
+    <section>
+        <form>
+            <label for="oz">Ounce (oz)</label>
+            <input type="number" id="oz" name="oz">
+        </form>
+    </section>
+    <section>
+        <form>
+            <label for="price">Price $</label>
+            <input type="number" id="price" name="Price">
+        </form>
+    </section>
+    <button class="button1"><strong>Add</strong></button>
+</div>
+
+<div class="container2">
+    <section>
+        <label>Ingredients</label>
+        <div class="display" id="ingredientList">
+            <!-- List items will be dynamically added using JavaScript -->
+        </div>
+    </section>
+    <section>
+        <label>INCI Name</label>
+        <div class="display" id="inciNameList">
+            <!-- List items will be dynamically added using JavaScript -->
+        </div>
+    </section>
+    <section>
+        <label>Functions</label>
+        <div class="display" id="functionList">
+            <!-- List items will be dynamically added using JavaScript -->
+        </div>
+    </section>
+    <section>
+        <label>Percentage</label>
+        <div class="display" id="percentageList">
+            <!-- List items will be dynamically added using JavaScript -->
+        </div>
+    </section>
+    <section>
+        <label>Ounce (oz)</label>
+        <div class="display" id="ozList">
+            <!-- List items will be dynamically added using JavaScript -->
+        </div>
+    </section>
+    <section>
+        <label>Price $</label>
+        <div class="display" id="priceList">
+            <!-- List items will be dynamically added using JavaScript -->
+        </div>
+    </section>
+    <div class="checkBoxcontainer">
+        <input type="checkbox" id="myCheckbox1">
+        <input type="checkbox" id="myCheckbox2">
+        <input type="checkbox" id="myCheckbox3">
+        <input type="checkbox" id="myCheckbox4">
+        <input type="checkbox" id="myCheckbox5">
+        <input type="checkbox" id="myCheckbox6">
+        <input type="checkbox" id="myCheckbox7">
+        <input type="checkbox" id="myCheckbox8">
+        <input type="checkbox" id="myCheckbox9">
+        <input type="checkbox" id="myCheckbox10">
+    </div>
+    <button class="button2"><strong>Edit</strong></button>
+</div>
+
+<div class="container3">
+    <form>
+        <button class="button3"><strong>Calculating Sum</strong></button>
+        <input type="text" id="percentage" name="Percentage">
+        <input type="text" id="oz" name="oz">
+        <input type="text" id="price" name="Price">
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2023 GlamCal. All rights reserved.</p>
+</footer>
+</body>
+</html>
