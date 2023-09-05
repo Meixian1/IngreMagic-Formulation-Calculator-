@@ -89,7 +89,7 @@ addButton.addEventListener('click', function () {
     priceList.appendChild(ingredientCostItem);
 
 /*
-     Not sure how to incorporate this section for generating a new remove butter at the end of each new row entry.
+     Not sure how to incorporate this section for generating a new remove button at the end of each new row entry.
         // Create a remove button (X) for the new row
     const removeButton = document.createElement('div');
     removeButton.classList.add('remove-button');
