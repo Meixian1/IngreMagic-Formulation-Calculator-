@@ -13,7 +13,6 @@ const calculateSumButton = document.querySelector('.button3'); // New button
 
 
 // Declare variables with selectors for container2 sections
-const container2 = document.querySelector('.container2'); // Added this line
 const ingredientsList = document.getElementById('ingredientList');
 const inciNameList = document.getElementById('inciNameList');
 const functionList = document.getElementById('functionList');
@@ -55,18 +54,22 @@ addButton.addEventListener('click', function () {
     // Create elements for each section of the entry
     const ingredientItem = document.createElement('div');
     ingredientItem.textContent = ingredientCommonName.value;
+    ingredientsList.appendChild(ingredientItem);
 
 
     const inciNameItem = document.createElement('div');
     inciNameItem.textContent = inciName.value;
+    inciNameList.appendChild(inciNameItem);
 
 
     const functionItem = document.createElement('div');
     functionItem.textContent = ingredientFunctions.value;
+    functionList.appendChild(functionItem);
 
 
     const percentageItem = document.createElement('div');
     percentageItem.textContent = percentage.value + '%';
+    percentageList.appendChild(percentageItem);
 
 
     const ozValue = calculateAndPopulateOz();
@@ -75,6 +78,7 @@ addButton.addEventListener('click', function () {
 
     const ozItem = document.createElement('div');
     ozItem.textContent = ozValue;
+    ozList.appendChild(ozItem);
 
 
     const ingredientCost = calculateAndPopulateIngredientCost(parseFloat(ozValue), pricePerOz);
@@ -82,10 +86,12 @@ addButton.addEventListener('click', function () {
 
     const ingredientCostItem = document.createElement('div');
     ingredientCostItem.textContent = ingredientCost;
+    priceList.appendChild(ingredientCostItem);
 
-
-    // Create a remove button (X) for the new row
-    const removeButton = document.createElement('span');
+/*
+     Not sure how to incorporate this section for generating a new remove butter at the end of each new row entry.
+        // Create a remove button (X) for the new row
+    const removeButton = document.createElement('div');
     removeButton.classList.add('remove-button');
     removeButton.textContent = 'X';
 
@@ -107,17 +113,20 @@ addButton.addEventListener('click', function () {
     entry.appendChild(removeButton);
 
 
+    // Append the entry to container2 (place this section after the section below)
+    container2.appendChild(entry);
+});
+*/
+
     // Clear input fields in container1
     ingredientCommonName.value = '';
     inciName.value = '';
     ingredientFunctions.value = '';
     percentage.value = '';
-    priceInput.value = '';
-
-
-    // Append the entry to container2
-    container2.appendChild(entry);
+    priceInput.value = ''; // Corrected the ID
 });
+
+
 
 
 // Function to handle the "Calculating Sum" button click in container3
@@ -161,6 +170,8 @@ calculateSumButton.addEventListener('click', function () {
 });
 
 
+
+
 // Get a reference to the "Edit/Done" button by its class
 const editButton = document.querySelector('.button2');
 
@@ -189,6 +200,8 @@ editButton.addEventListener('click', function () {
         }
     });
 });
+
+
 
 
 

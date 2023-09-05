@@ -214,8 +214,7 @@ grid-row-end: 9;
 }
 
 /* CSS for the row structure and "X" button */
-
-
+/*
 .container2 .remove-button {
 
 
@@ -227,3 +226,4 @@ grid-row-end: 9;
     cursor: pointer;
     justify-self: center; /* Center the button horizontally */
 }
+*/
