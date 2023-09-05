@@ -14,7 +14,7 @@ Project Status: In Progress.
 - Stage I of Front-End Development: Needs Improvement & Related Licensing Documents.
   -  Delete Button Implementation
   -  Alignment of components
-  -  Adding more UI Features such as color customization, unit conversion, and other record info tracking tags.
+  -  Adding more UI Features such as color customization, unit conversion, and other info record tracking tags.
   -  Improve accuracy, precision, and efficiency of the calculator, maybe can incorporate a faster algorithm.
   -  Improve web app security. 
 - Stage II Will Be Developing A Complete Database For Storing & Retrieving Data Information.
