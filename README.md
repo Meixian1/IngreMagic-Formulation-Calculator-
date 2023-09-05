@@ -17,7 +17,7 @@ Code Style: GPL License
 Screenshots: IngreMagic Screenshot 
 ![image](https://github.com/Meixian1/Week5Project1/assets/124223514/64ed65fe-8c27-419a-81f3-f3598a3d357a)
 
-Technologies: JavaScript, HTML/CSS... More technology will be added as the software development progress. 
+Technologies: JavaScript, HTML/CSS... More technology will be added as the software development progresses. 
 
 Features: Ingredient Input, Adding, Dynamic Display, Editing, Sum Calculation
 
@@ -29,6 +29,6 @@ How to Use: Enter ingredient details, add/edit ingredients, calculate sums.
 
 Contributions: Contributions welcome, follow contributing guidelines.
 
-Credits: Inspired by Project Name, Contributors: [List of contributors] 
+Credits: Inspired by Project Name, Contributors: [List of contributors] To be determined.
 
 License: GNU General Public License (GPL)
