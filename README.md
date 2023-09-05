@@ -13,6 +13,7 @@ Build Status: To be determined.
 Project Status: In Progress. 
 - Stage I of Front-End Development: Needs Improvement & Related Licensing Documents.
   -  Delete Button Implementation
+  -  Implement an Emport and Export Button. 
   -  Alignment of components
   -  Adding more UI Features such as color customization, unit conversion, and other info record tracking tags.
   -  Improve accuracy, precision, and efficiency of the calculator, maybe can incorporate a faster algorithm.
