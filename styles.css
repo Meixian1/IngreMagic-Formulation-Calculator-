@@ -1,123 +1,51 @@
 body{
     background-color:rgb(123, 229, 250);
     text-align: center;
-    margin:20px;
-    gap: 5px; 
+    margin: 100px;
+    gap: 30px;
     font-size: 15px;
-    position: sticky;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
+
 
 h1{
-    margin:20px; 
+    margin:30px;
     text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    padding: 12px;
 }
 
 
-.container1{
-    background-color:rgb(228, 201, 253);
-    display: flex; 
+.formulaInformation{
+    background-color: rgb(228, 201, 253);
+    display: flex;
     flex-direction: row;
-    padding: 20px; 
-    gap: 40px; 
-    align-items:center;
-    align-content:space-around;
-    margin: 40px; 
-}
-
-.container1 label {
-    grid-row: 1; /* Start in the 1st row */
-    grid-column: 1 / span 8; /* Span 8 columns */
-    text-align: center;
-    align-content: space-around;
-    font-weight: bold;
-    margin-bottom: 10px;
-    position:sticky;
-}
-
-.container1 input{
-    padding:10px 3px;  
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    padding: 20px;
+    gap: 70px; /* Adjust the gap as needed */
+    margin: 20px;
+    font-size: 18px;
 }
 
 
-.button1 {
-    /* Add margin to move the button closer to the container body */
-    margin-top:auto; /* You can adjust this value as needed */
-    background-color:rgb(250, 172, 87);
-    text-align: center;
-    padding: 40px 6px; 
+.formulaInformation Input{
+    padding: 15px 3px;
+    font-size: 15px;
+    border-radius: 40px;
+    align-content: center;
+    justify-content: center;
 }
 
-.container2 {
-    background-color: azure;
-    font-weight: bold;
-    display: grid;     
-    grid-template-rows: repeat(10, minmax(60px, auto)); /* 10 rows */
-    grid-template-columns: repeat(6, minmax(150px, auto)); /* 6 columns */
-    grid-column-start: 1;
-    grid-column-end: 6; /* Span the container over all 7 columns */
-    height: 700px;
-    padding: 40px;
-    margin: 40px;
-    gap: 10px;
-    justify-content: space-around;
-} 
-
-.button2 {
-    position:sticky;
-    background-color: rgb(250, 172, 87);
-    display:grid; 
-    grid-row-start: 2; /* Start in the 2nd row */
-    grid-row-end: 11;
-    grid-column-start: 8; /* Start in the 8th column */
-    grid-column-end: 8; /* Spanning 1 column */
-    grid-gap: 40px; /* Gap between checkbox and edit button */
-    align-content:space-evenly;
-    padding: 10px;
-}
 
 label {
     display: block;
-    margin-bottom: 30px; /* Add space below label */
+    margin-bottom: 20px; /* Add space below label */
     position:sticky;
-}
-
-
-.container3 {
-    background-color: rgb(142, 162, 240);
-    font-size: 20px;
-    display: grid;
-    grid-column-start: 4; /* Start in the 8th column */
-    grid-column-end: 6; /* Spanning 1 column */
-    gap: 20px;
-    padding: 40px;
-    margin: 40px;
-    align-items:end; /* Align items to the bottom of the container */
-    justify-content:right; /* Align items to the right */
-}
-
-
-.container3 input{
-    padding:10px 10px;
-
-}
-
-
-.button3 {
-    background-color:rgb(241, 240, 127);
-    padding:10px 20px;  
-
-}
-
-.checkBoxcontainer {
-    position:sticky;
-    display: grid;
-    grid-row-start: 2; /* Start the button in the first row */
-    grid-row-end: 11;
-    grid-column-start: 7;/* Start the button in the 5th column */
-    grid-column-end: 7; /* Span the button over 1 column */
-    grid-gap: 40px; /* Adjust as needed for spacing */
-    padding: 10px;
-    gap:10px;
+    font-size: 18px;
 }
 
 
@@ -128,21 +56,174 @@ label {
     text-align: center;
 }
 
+
 .batchContainer input {
-    padding: 8px;
-    font-size: 15px;
+    padding: 35px;
+    font-size: 18px;
     /* Adjust width as needed */
-    max-width: 50%;
-    box-sizing: border-box;
+    max-width: 60%;
+    box-sizing:border-box;
+    border-radius: 30px;
 }
 
-.submitButton {
-    margin: -7px;
-    padding: 8px; /* Adjust padding as needed */
+
+
+/* CSS for button hover effect */
+.submitButton:hover,
+.button1:hover,
+.button2:hover,
+.button3:hover {
+    box-shadow: 0 0 40px rgb(10, 136, 136); /* Adjust the shadow as needed */
+   
+}
+
+.container1 {
+    background-color: rgb(228, 201, 253);
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    padding: 20px;
+    gap: 70px; /* Adjust the gap as needed */
+    margin: 40px 20px;
+    font-size: 18px;
+}
+
+
+.container1 label {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.container1 input {
+    padding: 15px 7px;
     font-size: 15px;
+    border-radius: 40px;
+    align-content: center;
+    justify-content: center;
+    content-visibility: visible;
 }
 
 
+.button1 {
+    /* Add margin to move the button closer to the container body */
+    margin: 12px; /* You can adjust this value as needed */
+    background-color: rgb(252, 195, 90);
+    text-align: center;
+    padding: 40px 15px;
+    border-radius: 40px;
+    font-size: 18px;
+}
 
 
+.container2 {
+    background-color: azure;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(150px, auto)); /* 6 columns with increased min width */
+    grid-column-start: 1;
+    grid-column-end: 6; /* Span the container over all 6 columns */
+    column-gap: 5px;
+    padding: 40px;
+    margin: 20px;
+    justify-content: space-around;
+    font-size: 18px;
+    grid-auto-rows: min-content; /* Automatically adjust row height based on content */
+}
 
+
+.contianer2 .entry-row .display{
+    row-gap: 60px;
+    border-radius: 20px;
+    font-size: 18px;
+    visibility:visible;
+}
+
+
+/* Remove these properties from .button2 */
+/*
+grid-row-start: 2;
+grid-row-end: 9;
+*/
+
+
+/* Keep the rest of  .button2 CSS as-is */
+.button2 {
+    position: sticky;
+    background-color: rgb(252, 195, 90);
+    display: grid;
+    /* Remove these properties */
+    grid-row-start: 1;
+    grid-column-start: 8; /* Start in the 8th column */
+    grid-column-end: 8; /* Spanning 1 column */
+    align-content: space-evenly;
+    padding: 40px 15px;
+    border-radius: 40px;
+    font-size: 18px;
+    transition: height 0.3s; /* Add a transition for smooth height changes */
+}
+
+
+.container2 .entry-row{
+    border-radius: 20px;
+    white-space: pre-wrap; /* Allow line breaks and wrap text as needed */
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-size: 16px;
+}
+
+
+.container3 {
+    background-color: rgb(228, 201, 253);
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* You can adjust this property */
+    align-items: center;
+    row-gap: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.container3 .display {
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    padding: 20px;
+    margin: 20px;
+    align-items: right;
+    flex-grow: 1; /* Expand to fill available space */
+    font-size: 18px;
+    content-visibility: visible;
+    border-radius: 40px;
+    text-align: center;
+}
+
+
+.button3 {
+    background-color: rgb(252, 195, 90);
+    padding: 20px;
+    margin: 20px;
+    align-self:center; /* Align button to the top */
+    border-radius: 40px;
+    font-size: 18px;
+}
+
+/* CSS for the row structure and "X" button */
+
+
+.container2 .remove-button {
+
+
+    /* Styles for the "X" button */
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    justify-self: center; /* Center the button horizontally */
+}
