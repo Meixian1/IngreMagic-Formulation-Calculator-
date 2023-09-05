@@ -1,5 +1,4 @@
 # Week5Project1
-# Week5Project1
 
 IngreMagic - Formula Calculator
 
