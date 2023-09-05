@@ -12,7 +12,14 @@ Build Status: To be determined.
 
 Project Status: In Progress. 
 - Stage I of Front-End Development: Needs Improvement & Related Licensing Documents.
-- Stage II Will Be Developing A Complete Database For Storing & Retrieving Data Information. 
+  -  Delete Button Implementation
+  -  Alignment of components
+  -  Adding more UI Features such as color customization, unit conversion, and other record info tracking tags.
+  -  Improve accuracy, precision, and efficiency of the calculator, maybe can incorporate a faster algorithm.
+  -  Improve web app security. 
+- Stage II Will Be Developing A Complete Database For Storing & Retrieving Data Information.
+- Stage III... To be determined.
+- Stage IV... To be determined. 
 
 Code Style: This project uses Prettier for code formatting. We recommend installing the esbenp.prettier-vscode extension for Visual Studio Code to ensure consistent code formatting.
 
