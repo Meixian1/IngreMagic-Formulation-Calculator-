@@ -24,7 +24,8 @@ Project Status: In Progress.
 
 Code Style: This project uses Prettier for code formatting. We recommend installing the esbenp.prettier-vscode extension for Visual Studio Code to ensure consistent code formatting.
 
-Link to the Live Website: https://meixian1.github.io/Week5Project1/ 
+Link to the Live Website: 
+https://meixian1.github.io/IngreMagic-Formulation-Calculator-/
 
 Screenshots: IngreMagic Screenshot 
 ![image](https://github.com/Meixian1/Week5Project1/assets/124223514/64ed65fe-8c27-419a-81f3-f3598a3d357a)
